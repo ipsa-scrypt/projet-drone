@@ -2,8 +2,8 @@ import olympe
 import time
 import olympe.messages.ardrone3.Piloting as piloting
 
-DRONE_IP="10.202.0.1" #ip du simu
-DRONE_IP="192.168.42.1" #ip du drone
+DRONE_IP = "10.202.0.1" #ip du simu
+DRONE_IP = "192.168.42.1" #ip du drone
 
 time.sleep(5)
 drone = olympe.Drone(DRONE_IP)
